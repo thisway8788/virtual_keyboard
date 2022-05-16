@@ -1,1 +1,1 @@
-{"version":3,"file":"bundle.js","mappings":";;;;;AAAA","sources":["webpack://virtual_keyboard/./src/js/index.js"],"sourcesContent":["console.log('hi');\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"bundle.js","mappings":"mBAKAA,QAAQC,IAAIC,I","sources":["webpack://virtual_keyboard/./src/js/index.js"],"sourcesContent":["import '../css/style.css';\nlet a = 1;\n\nlet b = 2;\n\nconsole.log(a + b);\n"],"names":["console","log","a"],"sourceRoot":""}
