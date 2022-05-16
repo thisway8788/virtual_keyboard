@@ -14,6 +14,12 @@ module.exports = {
 
   devtool: 'source-map',
   mode: 'development',
+  devServer: {
+    host: 'localhost',
+    port: 8080,
+    open: true,
+    watchFile: 'index.html',
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'keyboard',
