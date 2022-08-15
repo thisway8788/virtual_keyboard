@@ -5,6 +5,8 @@ export class Keyboard {
     this.#addEvent();
   }
 
+  // checkingn the private
+
   #assignElement() {
     this.#switchEl = document.getElementById("switch");
   }
